@@ -39,9 +39,6 @@ jobs:
       - name: Set up environment variables
         run: echo "DATABASE_URL=${{ secrets.DATABASE_URL }}" >> $GITHUB_ENV
 
-      - name: Run database migrations
-        run: npm run migration:run
-
       - name: Build the project
         run: npm run build
 
