@@ -1,4 +1,4 @@
-import { UserEntity } from "src/users/user.entity";
+import { UserEntity } from "../users/user.entity";
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
 import { Status } from "./todo-status.enum";
 import { ApiProperty } from "@nestjs/swagger";

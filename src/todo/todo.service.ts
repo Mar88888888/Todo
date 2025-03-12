@@ -3,7 +3,7 @@ import { CreateTodoDto } from './dto/create-todo.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { TodoEntity } from './todo.entity';
 import { Repository } from 'typeorm';
-import { UserEntity } from 'src/users/user.entity';
+import { UserEntity } from '../users/user.entity';
 import { UpdateTodoDto } from './dto/update-todo.dto';
 import { Status } from './todo-status.enum';
 
